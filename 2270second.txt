@@ -1,0 +1,16 @@
+2270-2nd
+Quiz 1 Due sunday 29th @ 11:59pm
+	90 minutes
+
+HW1 Due Sunday 9/5
+
+You can pass arrays cant return them though, You can pass and return structures tho
+
+StreetAddress delivery_route[Route_Length];
+delivery_route[0].house_number = 123;
+d_r[0].street_name = "main street"
+
+struct monthtemp{
+string location;
+double values[12]
+}

@@ -1,0 +1,48 @@
+ifstream in_file; <Creating an object
+in_file.open(".dat")
+C:\homework\input.dat (Windows) 
+	The forward slashes indicate directory
+
+****The Homework Lecture 2 Page 6/45
+
+in_file.open("input.dat"); don't forget this
+in_file.close();
+
+string line
+ifstream infile('filename')
+getline(in_file, line);
+while (getline(in_file,line))
+{
+	split // parse the line
+}
+
+struct student{
+	string name
+	string address
+	float GPA
+};
+	*These are all public
+		
+	*In a class they are all private 
+		This means u need setters and getters
+
+#include <iostream>
+using namespace std;
+
+class employee{
+	public:
+	void setsalary(int s)
+	int getSalary();
+	private:
+	 int slsary;
+}
+
+void Employee::setSalary(int s)
+{
+	s
+}
+
+int Employee::getsalary()
+{
+	 return slary
+}
